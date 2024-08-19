@@ -1,0 +1,45 @@
+1.Python’da print() funksiyasi nima uchun ishlatiladi va uning qanday variantlari mavjud?
+
+print funksiyasidan malumotlarni ekranga chiqarish uchun foydalanamiz qisqasi shu
+uni hozrcha ishlatgan turalarimiz:
+1 oddiy usul ( print("salom dunyo") )
+2 malumot bilan yozilgan bolsa
+age = 19
+print("Ismim soxibjon yoshim", age, "da")
+3 formatlab ishlash
+age  = 19
+print(f"salom meni ismim {name} yoshim {age}da")
+4 biz bilaganalardan yana print ichida aynan valuelarni ham print qilsa boladi va hisob kitoblarniyam
+print(4 * 6)
+output: 24
+
+
+
+2.Python’da range() funksiyasi qanday ishlaydi va u qaysi hollarda ishlatiladi? range() funksiyasining turli ko‘rinishlari haqida tushuntirib bering.
+ biz range funksiyasidan odatda forni aylantirishda foydalanardik, shu for bilan tushitirib ketaman sal osonroq boladi:
+ range(start, stop, step)
+ start boshlanishi o'z nomi bilan
+ stop tugash joyi
+ step qadamlari yani har qadamda tashlab ketadigan oraliqlari uzunligi
+
+3.Python’da fayl bilan ishlash jarayonida open() funksiyasining turli rejimlari ('r', 'w', 'a', 'b') qanday vazifalarni bajaradi?
+r -> read o'qib beradi
+w -> write yozish uchun ishlatilinadi
+a -> AnyStr hali nima qilishini bilmiman
+b -> binary fayl ochish uchun ishlatilinadi
+
+
+4.Python’da list, tuple, va set ma’lumot turlarining asosiy farqlari nimada va ular qaysi hollarda ishlatiladi?
+list -> tortburchak qavs bilan kiritiladi va unda biz stting int va float tipidagi ma'lumotlarni saqlashimiz mumkn va listdan malumot olish judayam oson
+tuple -> tuplelar bilan ishlashni esimdan chiqarib qoydim domla
+set ->
+
+
+5.OOP va uning 4 ta konsepsiyasi haqida malumot bering
+class ochish 1-atribut bolishi mumkin
+encapsulation -> private, protected, public
+
+
+
+
+
